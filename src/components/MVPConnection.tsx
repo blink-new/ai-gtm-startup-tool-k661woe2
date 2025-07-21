@@ -186,7 +186,7 @@ export function MVPConnection({ onConnectionComplete, onAnalysisComplete }: MVPC
         targetAudience: analysisData.targetAudience,
         marketCategory: analysisData.marketCategory,
         industry: analysisData.industry,
-        valueProp: analysisData.valueProposition,
+        valueProposition: analysisData.valueProposition,
         keyFeatures: JSON.stringify(analysisData.keyFeatures),
         pricingModel: analysisData.pricingModel,
         competitors: JSON.stringify(analysisData.competitors),
